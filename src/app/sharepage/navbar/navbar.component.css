@@ -1,0 +1,10 @@
+.navbar-expand-lg .navbar-collapse 
+{
+    color:var(--secondary-color);
+}
+.navbar-expand-lg .navbar-collapse .nav-link.active-link
+{
+    color:var(--primary-color);
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-4">designer clothes</h1>
+    <a routerLink="menu">ORDER now<i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<div class="container mt-2 mb-4">
+     <h1 class="text-center mb-4" >
+        how to get
+        <span class="highlight"> order</span>
+     </h1>
+        <div class="row">
+            <!--one-->
+            <div class="col-lg-4">
+            <div class="stepbox">
+                    <h1>1</h1>
+                    <p> select clothes</p>
+                </div>    
+            </div>
+            <!--two-->
+            <div class="col-lg-4">
+                <div class="stepbox">
+                    <h1>2</h1>
+                <p> fill the details</p>
+                </div>
+                 </div>
+            <!--three-->
+            <div class="col-lg-4">
+                <div class="stepbox">
+                    <h1>3</h1>
+                <p> your order details</p>
+                </div>
+            </div>
+     </div>
+</div>
+<!--box-->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center mb-4" >
+        best designer 
+        <span class="highlight"> clothes</span>
+     </h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let d of clothesdata; index as i">
+             <div class="box " *ngIf="i<=3">
+                <img src="{{d.img}}"/>
+                <h1>{{d.typeofclothes}}</h1>
+                <p>{{d.price | currency:'INR'}}</p>
+             </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewmorebtn">view more<i class="bi bi-arrow-right"></i></a>
+</div>

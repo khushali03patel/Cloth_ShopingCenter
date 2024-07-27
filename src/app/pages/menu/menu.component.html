@@ -1,0 +1,13 @@
+<div class="container mt-4 mb-4">
+    
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let d of clothesdata">
+             <div class="box ">
+                <img src="{{d.img}}"/>
+                <h1>{{d.typeofclothes}}</h1>
+                <p>{{d.price | currency:'INR'}}</p>
+                <a class="buybtn">buy <i class="bi bi-cart4"></i></a>
+             </div>
+        </div>
+    </div>
+</div>

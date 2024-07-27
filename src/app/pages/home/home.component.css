@@ -1,0 +1,84 @@
+.banner
+
+{
+    background-image: url('../../../assets/img/background4.jpg');
+    height: 80%;
+    background-position: center  ;
+    background-size: cover;
+}
+.content
+{
+    top:10%;
+    left:40%;
+    position: absolute;
+}
+.content h1{
+    color:rgb(174, 26, 26);
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.content a{
+    text-decoration: none;
+    background-color: rgb(7, 2, 0);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.content a:hover
+{
+    background-color: red;
+    color: #fff;
+}
+.stepbox
+{
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepbox h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--primary-color);
+}
+.stepbox p
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+}
+.highlight
+{
+
+    
+    color: red; 
+    font-weight: bold;
+    font-style: italic;
+}
+.box
+{
+    padding: 10px 5px;
+}
+.box img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover top;
+    border-radius: 5px;
+}
+.box h1
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.viewmorebtn
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
